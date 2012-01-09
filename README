@@ -1,3 +1,3 @@
-CocoaHTTPServer---multipart-form-data 是用CocoaHTTPServer实现multipart/form-data协议来上传form表单文件(主要是上传文件,该项目并没有处理表单值域) 
+CocoaHTTPServer---multipart-form-data 是基于CocoaHTTPServer第三方库实现multipart/form-data协议来上传form表单文件(主要是上传文件,该项目并没有处理表单值域) 
 site:www.willonboy.tk
 QQ:962286684
