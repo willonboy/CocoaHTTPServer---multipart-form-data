@@ -118,6 +118,12 @@
 	}
     
     float uploadProgress = (double)requestContentLengthReceived / requestContentLength;
+		//实际应用时 当前类的实例是相当于单例一样被引用(因为只被实例化一次)
+	if (uploadProgress >= 1.0) {
+		postHeaderOK = NO;
+		[multipartData release];
+		multipartData = nil;
+	}
     [[NSNotificationCenter defaultCenter] postNotificationName:UPLOAD_FILE_PROGRESS object:[NSNumber numberWithFloat:uploadProgress] userInfo:nil];
 }
 
