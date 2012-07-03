@@ -45,8 +45,8 @@
 		freeifaddrs(addrs);
 	}
     
-        //获取外网IP
-	NSURL *netIPURL = [NSURL URLWithString:@"http://whatismyip.org"];
+        //获取外网IP 
+	NSURL *netIPURL = [NSURL URLWithString:@"http://whatismyip.org"];//http://whatismyip.org/ipimg.php (image)
 	NSString *netIP = [NSString stringWithContentsOfURL:netIPURL encoding:NSUTF8StringEncoding error:nil];
     
 	if (netIP)

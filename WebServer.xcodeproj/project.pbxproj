@@ -428,11 +428,15 @@
 		6C07AA7114BA76C9006E84B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: trojan zhang (62T7LX36NS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: trojan zhang (62T7LX36NS)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebServer/WebServer-Prefix.pch";
 				INFOPLIST_FILE = "WebServer/WebServer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "90D30AC1-F9EA-4731-92EF-54093B16BADB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "90D30AC1-F9EA-4731-92EF-54093B16BADB";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -440,11 +444,15 @@
 		6C07AA7214BA76C9006E84B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: trojan zhang (62T7LX36NS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: trojan zhang (62T7LX36NS)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebServer/WebServer-Prefix.pch";
 				INFOPLIST_FILE = "WebServer/WebServer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "90D30AC1-F9EA-4731-92EF-54093B16BADB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "90D30AC1-F9EA-4731-92EF-54093B16BADB";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
